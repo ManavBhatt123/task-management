@@ -1,16 +1,37 @@
-# React + Vite
+# TaskFlow — Task Management Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TaskFlow is a clean, responsive task management application built with React and Tailwind CSS. It helps users organize daily tasks, track progress, manage priorities, and group tasks by project through a simple dashboard.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Dashboard Overview** — View total tasks, tasks in progress, completed tasks, and overdue tasks.
+- **Task Management** — Create tasks with a title, project name, priority, and due date.
+- **Task Completion** — Mark tasks as completed or reopen them using checkboxes.
+- **Search Tasks** — Search tasks by title, project, or priority.
+- **Task Filters** — Filter tasks by All, Today, Upcoming, and Completed.
+- **Project Overview** — Automatically display unique project names based on existing tasks.
+- **Progress Tracking** — Visualize task completion with a circular progress indicator.
+- **Upcoming Tasks** — View tasks that still need attention.
+- **Responsive UI** — Adapt the layout to different screen sizes.
+- **Modern Design** — Clean interface with a white background, blue accents, and subtle borders.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React** — Component-based user interface.
+- **JavaScript (ES6+)** — Application logic and state management.
+- **HTML5** — Application structure.
+- **CSS3** — Global styling.
+- **Tailwind CSS** — Utility-first styling.
+- **Vite** — Development server and build tool.
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (LTS version recommended)
+- npm
+- [Git](https://git-scm.com/) (optional, for version control)
+
+### Installation
